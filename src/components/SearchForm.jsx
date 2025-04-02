@@ -28,7 +28,7 @@ const SearchForm = () => {
           type="text"
           placeholder="Search"
         />
-        <button className="md:w-1/4 w-full bg-green-500 md:ml-3 p-4  rounded-sm">
+        <button className="md:w-1/4 w-full bg-[#ffde59] font-bold text-lg md:ml-3 p-4  rounded-sm">
           Search
         </button>
       </form>

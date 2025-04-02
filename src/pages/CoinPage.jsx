@@ -34,7 +34,7 @@ const CoinPage = () => {
     <div
       className={
         theme
-          ? "mx-auto min-h-[90vh]   md:px-20 md:py-10 px-8 py-20  bg-gray-900 "
+          ? "mx-auto min-h-[90vh]   md:px-20 md:py-10 px-8 py-20  bg-gradient-to-r from-gray-800 to-black"
           : "mx-auto min-h-[90vh]   md:px-20 md:py-10 px-8 py-20 "
       }
     >
@@ -45,7 +45,7 @@ const CoinPage = () => {
             <h1 className="my-2 text-gray-600 text-4xl font-bold">{coin?.name}</h1>
             <h1 className="my-2 text-gray-600 text-4xl font-bold">{coin?.symbol}</h1>
             <h1 className="my-2 text-center text-green-600 text-4xl font-bold">Price : {coin?.market_data?.current_price?.inr} INR/-</h1>
-            <button onClick={()=>handleAddToCart(coin)} className="p-3 bg-green-500 md:w-1/2 w-full rounded-md my-3 text-white  font-bold text-xl">Add to Cart </button>
+            <button onClick={()=>handleAddToCart(coin)} className="p-3 bg-[#ffde59] md:w-1/2 w-full rounded-md my-3 text-black  font-bold text-xl">Add to Cart </button>
           </div>
         </div>
         <div

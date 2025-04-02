@@ -56,13 +56,13 @@ const Register = () => {
   return (
     <div
       className={
-        theme ? " min:h-[700px]  px-10  bg-gray-900 " : " min:h-[660px] px-10"
+        theme ? " min:h-[700px]  px-10  bg-gradient-to-r from-gray-800 to-black " : " min:h-[660px] px-10"
       }
     >
       <div
         className={
           theme
-            ? " md:px-20 md:py-8 py-20 mx-auto container border border-gray-900 bg-gray-900"
+            ? " md:px-20 md:py-8 py-20 mx-auto container border border-gray-900 bg-gradient-to-r from-gray-800 to-black"
             : " md:px-20 md:py-8 py-20 mx-auto container"
         }
       >
@@ -113,7 +113,7 @@ const Register = () => {
                 value={password2}
                 onChange={handleChange}
               />
-              <button className="text-white font-bold  my-3 text-xl w-1/2 bg-teal-500 py-3 rounded-sm hover:bg-teal-600 duration-200">
+              <button className="text-white font-bold  my-3 text-xl w-1/2 bg-[#ffde59] text-black py-3 rounded-sm hover:bg-teal-600 duration-200">
                 Sign Up
               </button>
             </form>

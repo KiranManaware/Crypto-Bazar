@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav
       className={
         theme
-          ? "z-10 sticky w-full top-0 right-0 bg-gray-900   px-10  shadow-xl  border-b border-gray-800 py-5 flex item-center justify-between "
+          ? "z-10 sticky w-full top-0 right-0 bg-gradient-to-r from-gray-800 to-black  px-10  shadow-xl  border-b border-gray-800 py-5 flex item-center justify-between "
           : "z-10 sticky w-full top-0 right-0 px-10 bg-white  shadow border  py-5 flex item-center justify-between "
       }
     >
@@ -27,7 +27,7 @@ const Navbar = () => {
       <span>
         {user ? (
           <>
-            <button onClick={handleLogout} className="bg-red-600 text-white  px-5 py-2 text-sm font-bold rounded-sm mx-3">
+            <button onClick={handleLogout} className="bg-red-600 text-black  px-5 py-2 text-sm font-bold rounded-sm mx-3">
               Logout
             </button>
             <Link
@@ -41,13 +41,13 @@ const Navbar = () => {
           <>
             <Link
               to={"/login"}
-              className="bg-green-400 text-white px-5 py-2  text-sm font-bold rounded-sm mx-3"
+              className="bg-[#ffde59] text-black px-5 py-2  text-sm font-bold rounded-sm mx-3"
             >
               Login
             </Link>
             <Link
               to={"/register"}
-              className="bg-green-400 text-white px-5 py-2  text-sm font-bold rounded-sm mx-3 fo"
+              className="bg-[#ffde59] text-black px-5 py-2  text-sm font-bold rounded-sm mx-3 fo"
             >
               Register
             </Link>

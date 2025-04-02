@@ -16,7 +16,7 @@ const Home = () => {
     <div
       className={
         theme
-          ? "mx-auto min-h-[90vh] flex items-center justify-center flex-col  md:px-16 md:py-10 p-20  bg-gray-900 "
+          ? "mx-auto min-h-[90vh] flex items-center justify-center flex-col  md:px-16 md:py-10 p-20  bg-gradient-to-r from-gray-800 to-black "
           : "mx-auto min-h-[90vh] flex items-center justify-center flex-col  md:px-16 md:py-10 p-20 "
       }
     >

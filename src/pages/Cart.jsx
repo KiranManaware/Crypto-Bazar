@@ -23,7 +23,7 @@ const Cart = () => {
     <div
       className={
         theme
-          ? "mx-auto min-h-[90vh]  md:px-16 md:py-10 px-8 py-20  bg-gray-900 "
+          ? "mx-auto min-h-[90vh]  md:px-16 md:py-10 px-8 py-20 bg-gradient-to-r from-gray-800 to-black"
           : "mx-auto min-h-[90vh]  flex-col  md:px-16 md:py-10 px-8 py-20 "
       }
     >

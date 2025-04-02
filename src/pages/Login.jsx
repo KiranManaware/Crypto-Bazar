@@ -38,7 +38,7 @@ const Login = () => {
   
   useEffect(() => {
     if(user){
-      navigate('/')
+      navigate('/dashboard')
     }
     if(isError && message){
       toast.error(message,{position:"top-center",theme:"dark"})
@@ -50,7 +50,7 @@ const Login = () => {
 
   return (
     <div
-      className={theme ? " h-[656px] p-20  bg-gray-900 " : " min:h-[658px] p-20"}
+      className={theme ? " h-[656px] p-20  bg-gradient-to-r from-gray-800 to-black " : " min:h-[658px] p-20"}
     >
       <div
         className={
@@ -83,7 +83,7 @@ const Login = () => {
               value={password}
               onChange={handleChange}
             />
-            <button className="text-white font-bold my-3 text-xl w-1/2 bg-teal-500 py-3 rounded-sm hover:bg-teal-600 duration-200">
+            <button className="text-white font-bold my-3 text-xl w-1/2 bg-[#ffde59] text-black py-3 rounded-sm hover:bg-teal-600 duration-200">
               Sign In
             </button>
           </form>

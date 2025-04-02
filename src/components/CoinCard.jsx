@@ -17,7 +17,7 @@ const CoinCard = ({ coin }) => {
       <h2 className="text-gray-600 font-bold text-3xl my-3 ">
         Symbol : {coin?.symbol}
       </h2>
-      <Link to={`/coin/${coin?.id}`} className="text-center md:w-1/2 py-3 my-5  hover:bg-green-600 duration-200 w-full bg-green-500 text-white font-bold text-xl rounded-sm">
+      <Link to={`/coin/${coin?.id}`} className="text-center md:w-1/2 py-3 my-5  hover:bg-green-600 duration-200 w-full bg-[#ffde59]  text-black font-bold text-xl rounded-sm">
         View Coin
       </Link>
     </div>
