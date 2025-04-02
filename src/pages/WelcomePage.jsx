@@ -45,11 +45,11 @@ const WelcomePage = () => {
 
         </div>
         <div className="p-10 flex items-center justify-center rounded-xl bg-[#ffde59] text-black font-bold text-3xl uppercase">smart contracts</div>
-        <div className=" flex items-center justify-center rounded-xl text-[#ffde59] border border-[#ffde59] text-black font-bold text-3xl uppercase">Investment</div>
+        <div className=" flex items-center justify-center rounded-xl text-[#ffde59] border border-[#ffde59] text-gray-400 font-bold  text-3xl uppercase">Investment</div>
         <div className="p-6 text-white text-center col-span-2">
           <img src={sec2} className='w-full ' alt="" />
         </div>
-        <div className=" flex items-center justify-center rounded-xl text-[#ffde59] text-black  border border-[#ffde59] font-bold text-3xl uppercase">Decentralized Finance (DeFi)</div>
+        <div className=" flex items-center justify-center rounded-xl text-[#ffde59] text-gray-300  border border-[#ffde59] font-bold text-center text-3xl uppercase">Decentralized Finance (DeFi)</div>
   
       </section >
       {/* section 4 */}
