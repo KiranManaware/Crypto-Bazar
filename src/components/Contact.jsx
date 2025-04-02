@@ -13,7 +13,7 @@ const Contact = () => {
         {/* Contact Info Section */}
         <div className="w-full flex flex-col justify-center">
           <h2 className="text-5xl text-center text-gray-200  font-bold mb-10">
-            Contact <span className="text-[#ffde59]">Me</span>
+            Contact <span className="text-[#ffde59]">Us</span>
           </h2>
           <p className="text-gray-400 mb-6 text-sm">
             Get in touch! Whether you have a project idea, want to collaborate,
