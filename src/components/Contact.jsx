@@ -12,10 +12,10 @@ const Contact = () => {
 
         {/* Contact Info Section */}
         <div className="w-full flex flex-col justify-center">
-          <h2 className="text-5xl text-center text-gray-200  font-bold mb-10">
+          <h2 className="text-5xl text-center text-gray-500  font-bold mb-10">
             Contact <span className="text-[#ffde59]">Us</span>
           </h2>
-          <p className="text-gray-400 mb-6 text-sm">
+          <p className="text-gray-500 mb-6 text-sm">
             Get in touch! Whether you have a project idea, want to collaborate,
             or just wish to connect, feel free to reach out. I am always open to
             discussions about web development, UI/UX design, and technology. You
@@ -24,30 +24,30 @@ const Contact = () => {
           </p>
 
           <div className=" flex flex-col space-y-4 items-center justigy-center ">
-          <div className="flex items-center gap-3 border rounded-full px-10 py-3  text-gray-400 ">
+          <div className="flex items-center gap-3 border rounded-full px-10 py-3  text-gray-500 ">
             <p>9340551923</p>
           </div>
-          <div className="flex items-center gap-3 border rounded-full px-10 py-3  text-gray-400">
+          <div className="flex items-center gap-3 border rounded-full px-10 py-3  text-gray-500">
             <p>kiranmanaware123@gmail.com</p>
           </div>
-          <div className="flex items-center gap-3 border rounded-full px-10 py-3 text-gray-400">
+          <div className="flex items-center gap-3 border rounded-full px-10 py-3 text-gray-500">
             <a
               href="https://www.linkedin.com/in/kiranmanaware2003"
               target="_blank"
               rel="noopener noreferrer"
               className=" hover:underline"
             >
-              My LinkedIn Profile
+              LinkedIn Profile
             </a>
           </div>
-          <div className="flex items-center gap-3 border rounded-full px-10 py-3  text-gray-400">
+          <div className="flex items-center gap-3 border rounded-full px-10 py-3  text-gray-500">
             <a
               href="https://www.instagram.com/kiranmanaware/"
               target="_blank"
               rel="noopener noreferrer"
               className=" hover:underline"
             >
-              My Instagram Profile
+              Instagram Profile
             </a>
           </div>
           </div>
