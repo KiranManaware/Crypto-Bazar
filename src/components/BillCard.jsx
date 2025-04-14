@@ -11,7 +11,7 @@ const BillCard = () => {
       <h1 className="text-gray-400 font-bold text-2xl text-center">
         Your Bill
       </h1>
-      <h2 className="text-gray-400 font-semibold text-lg">Total Quantity : {cartItems.length} </h2>
+      <h2 className="text-gray-400 font-semibold text-lg">Total Quantity : {cartItems.reduce((a,b)=>a+b.quantity,0)} </h2>
       <h2 className="text-gray-400 font-semibold text-3xl">Total Amount :{cartItems.reduce((a,c)=> a+c.market_data?.current_price?.inr,0)}</h2>
       <button className="w-full text-white text-center bg-blue-600 py-3 rounded-sm my-2 font-bold">
         Pay Now

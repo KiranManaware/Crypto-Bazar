@@ -21,9 +21,13 @@ const Navbar = () => {
           : "z-10 sticky w-full top-0 right-0 px-10 bg-white  shadow border  py-5 flex item-center justify-between "
       }
     >
-      <Link to={"/"} className="text-2xl font-bold text-blue-400 uppercase">
+      {
+        user?<Link to={"/dashboard"} className="text-2xl font-bold text-blue-400 uppercase">
+        <span className="text-green-400">crypto</span> - bazar
+      </Link>:<Link to={"/"} className="text-2xl font-bold text-blue-400 uppercase">
         <span className="text-green-400">crypto</span> - bazar
       </Link>
+      }
       <span>
         {user ? (
           <>
